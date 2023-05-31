@@ -2,6 +2,7 @@
 import { Command } from 'commander';
 import { doGenerate } from './generate';
 import { doWeb } from './web';
+import * as initializer from './initialize';
 
 export const init = () => {
   const program = new Command();
@@ -24,5 +25,6 @@ export const init = () => {
       process.exit(exitCode)
     })
 
+  initializer.init();
   program.parse();
 }
