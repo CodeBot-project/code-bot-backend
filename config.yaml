@@ -1,2 +1,5 @@
 webserver: 
   port: 5000
+
+gpt:
+  prompt: ""
