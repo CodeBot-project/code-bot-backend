@@ -1,6 +1,6 @@
 
 export type WebserverConfig = {
-  port?: number
+  port: number
 }
 
 export type GPTConfig = {
@@ -9,6 +9,6 @@ export type GPTConfig = {
 }
 
 export type Config = {
-  webserver?: WebserverConfig
+  webserver: WebserverConfig
   gpt: GPTConfig
 }
