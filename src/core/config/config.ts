@@ -23,6 +23,6 @@ export function init() {
   }
 }
 
-export function getConfig(): Config | null {
-  return cfg;
+export function getConfig(): Config  {
+  return cfg!;
 }

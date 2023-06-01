@@ -15,14 +15,12 @@ export const init = () => {
     .command('generate')
     .action(() => {
       const exitCode = doGenerate(undefined);
-      process.exit(exitCode)
     })
 
   program
     .command('web')
     .action(() => {
       const exitCode = doWeb(undefined);
-      process.exit(exitCode)
     })
 
   initializer.init();
