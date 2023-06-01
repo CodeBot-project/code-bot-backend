@@ -5,6 +5,7 @@ export type WebserverConfig = {
 
 export type GPTConfig = {
   prompt: string
+  model: string
 }
 
 export type Config = {
