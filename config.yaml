@@ -2,5 +2,8 @@ webserver:
   port: 8080
 
 gpt:
-  prompt: ""
+  prompt: | 
+    Please write a bash shell script that creates project folder structure and the full code for a project called [name] 
+    that does [requirements], the code should be written in [languages], using [dependencies], please build a full project that works,
+    please only output the shell script and nothing else
   model: "gpt-3.5-turbo"

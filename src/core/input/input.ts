@@ -7,7 +7,7 @@ export function parseInput(input: string) {
     result = YAML.parse(input!) as Input;
   } catch(e) {
     console.error(`Error: couldn't parse input: ${e}`)
-    return null
+    throw e
   }
   return result
 }
